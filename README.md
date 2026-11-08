@@ -20,4 +20,5 @@ Place the `plugin.ini` in the same directory.
 
 **Step 3**
 Create a `/home/$USER/.var/app/com.github.xournalpp.xournalpp/config/xournalpp/icon` directory. Place the `autoscroll.svg` icon inside the `icon` folder.
+
 Go inside the `main.lua` file, and edit the svg location of the `ICON_PATH` variable.
