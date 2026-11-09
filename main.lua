@@ -12,7 +12,7 @@ local GLib = LuaGObject.require("GLib", "2.0")
 local Gtk = LuaGObject.require("Gtk", "3.0") -- gtk object to generate the autoscroll icon
 
 -- Tuning parameters
-local INTERVAL_MS = 12       
+local INTERVAL_MS = 16       
 local DEADZONE_PX = 2        -- ignore small pointer movements
 local SPEED_GAIN = 20.0      -- scroll px/s per pointer px beyond deadzone
 local MAX_SPEED = 20000      -- maximum scroll speed, in px/s
